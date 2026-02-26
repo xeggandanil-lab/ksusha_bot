@@ -3,7 +3,7 @@ from telegram.ext import ApplicationBuilder, MessageHandler, ContextTypes, filte
 import asyncio
 
 
-TOKEN = "8676435910:AAGDgHikdhj3e6M_WtStExPjXWjZAvl4PTs"
+TOKEN = os.getenv("TOKEN")
 
 PHOTO_URL = "https://i.ibb.co/S466K0H7/ksenia102.jpg"
 
